@@ -1,9 +1,7 @@
-function main(arr) {
-    let sum = 0
-    for (let i = 0; i <= arr.length; i++) {
-       console.log(i)
-    }
-    // return sum
+function simpleArraySum(arr){
+    console.log(arr.reduce((arr,car)=>arr+car,0))
+    return arr.reduce((arr,car)=>arr+car,0)
    
 }
-main([1,2,3,4,5,6])
+
+simpleArraySum([1,2,3,4,10,11])
