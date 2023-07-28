@@ -1,7 +1,0 @@
-function simpleArraySum(arr){
-    console.log(arr.reduce((arr,car)=>arr+car,0))
-    return arr.reduce((arr,car)=>arr+car,0)
-   
-}
-
-simpleArraySum([1,2,3,4,10,11])
